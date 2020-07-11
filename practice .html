@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> class 16 Practice</title>
+    <link rel="stylesheet" href="practice.css">
+</head>
+<body>
+    <!-- this paragraph is set in a way where we show short part of text when user clicks on the see more the complete text is displayed -->
+    <p id="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+        <!-- //the href seems different because it is coopied from book to stop page reloading itself -->
+        <a href="javascript:void(0)" onclick="seemore()">see more</a>
+    </p>
+
+    <p id="hello">Hello <a href="#" onclick="greeting()">see more</a> </p>
+<!--     
+
+    this click on image calls java function that add classname to this image and the size specified for that class name in CSS changes the size of image over click -->
+<!-- 
+    only for image which not have class -->
+    <img src="profile.jpg" onclick="small()" id="profile" alt="">
+
+
+
+    <img class="tauseef" src="profile.jpg" onclick="small2()" id="pro" alt="">
+<!-- 
+changing image when when mouse in or & return image when mouse out -->
+    <img id="evai" class="avai" src="profile.jpg" onmouseout="returnimg()" onmouseover="changeimg()" alt="">
+
+
+<div id="parent">
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis eaque facilis, quae iste reiciendis molestiae aliquid ut consectetur consequuntur maiores ipsum, modi aliquam fuga minima. Necessitatibus velit officia cum at!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis eaque facilis, quae iste reiciendis molestiae aliquid ut consectetur consequuntur maiores ipsum, modi aliquam fuga minima. Necessitatibus velit officia cum at!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis eaque facilis, quae iste reiciendis molestiae aliquid ut consectetur consequuntur maiores ipsum, modi aliquam fuga minima. Necessitatibus velit officia cum at!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis eaque facilis, quae iste reiciendis molestiae aliquid ut consectetur consequuntur maiores ipsum, modi aliquam fuga minima. Necessitatibus velit officia cum at!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis eaque facilis, quae iste reiciendis molestiae aliquid ut consectetur consequuntur maiores ipsum, modi aliquam fuga minima. Necessitatibus velit officia cum at!</p>
+</div>
+
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis eaque facilis, quae iste reiciendis molestiae aliquid ut consectetur consequuntur maiores ipsum, modi aliquam fuga minima. Necessitatibus velit officia cum at!</p>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis eaque facilis, quae iste reiciendis molestiae aliquid ut consectetur consequuntur maiores ipsum, modi aliquam fuga minima. Necessitatibus velit officia cum at!</p>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis eaque facilis, quae iste reiciendis molestiae aliquid ut consectetur consequuntur maiores ipsum, modi aliquam fuga minima. Necessitatibus velit officia cum at!</p>
+
+
+
+
+</body>
+
+
+
+
+
+
+<script src="practice.js"></script>
+</html>
