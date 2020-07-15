@@ -3,7 +3,7 @@ body{
 }
 @font-face{
     font-family: Ubuntu;
-    src: url(Ubuntu/Ubuntu-Regular.ttf);
+    src: url(Ubuntu-Regular.ttf);
 }
 *{
     font-family: Ubuntu;
