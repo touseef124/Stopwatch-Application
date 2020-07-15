@@ -1,0 +1,38 @@
+body{
+    background-color: #f0f0f0;
+}
+@font-face{
+    font-family: Ubuntu;
+    src: url(Ubuntu/Ubuntu-Regular.ttf);
+}
+*{
+    font-family: Ubuntu;
+}
+#heading{
+    color: royalblue;
+    text-shadow: 2px 10px 10px grey;
+    margin: 10px;
+    font-size: 60px;
+}
+#dots,#min,#sec,#msec{
+    display: inline-block;
+    color: red;
+    font-size: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#subscript{
+    color: lightgray;
+    font-size: 24px;
+}
+.btn{
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+fieldset{
+    color: red;
+    border: 3px solid darkslategrey;
+    border-radius: 15px;
+
+}
